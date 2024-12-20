@@ -788,3 +788,194 @@ html, body{
         transform: translateX(24px);
     }
 }
+
+@media (max-width: 375px) {
+    .container{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+        height: 130px;
+        background: url("./images/bg-sidebar-mobile.svg");
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .step{
+            gap: 0;
+            width: 60px;
+            .step-num{
+                width: 20px;
+                height: 20px;
+            }
+
+            .step-title{display: none;}
+        }
+    }
+    .main-content{
+        width: 80%;
+    }
+
+    .personal-info{
+        .top{
+            width: 100%;
+            h1{font-size: 28px;}
+            p{font-size: 15px;}
+        }
+    
+        form{
+            width: 100%;
+    
+            .form-group{
+                input{
+                    font-size: 14px;
+                }
+            }
+    
+            button{
+                width: 120px;
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .select-plan{
+        .top{
+            width: 100%;
+            h1{font-size: 28px;}
+            p{font-size: 15px;}
+        }
+    
+        .plan{
+            width: 100%;
+            grid-template-columns: 1fr;
+            gap: 10px;
+    
+            .plan-item{
+                flex-direction: row;
+                align-items: center;
+                gap: 40px;
+                height: 30px;
+            }
+        }
+    
+        .btns{
+            width: 100%;
+            button{
+                width: 100px;
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+    }    
+    .toggle-container{width: 85%;}
+
+    .add-ons{
+        .top{
+            width: 100%;
+            h1{font-size: 28px;}
+            p{font-size: 15px;}
+        }
+    
+        .subscribes{
+            width: 100%;
+            gap: 10px;
+    
+            .add-on{
+                .text{
+                    label{
+                        font-size: 14px;
+                    }
+    
+                    p{
+                        font-size: 10px;
+                    }
+                }
+    
+                span{
+                    font-size: 12px;
+                }
+    
+                input[type="checkbox"]{
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+        }
+        .btns{
+            width: 100%;
+            button{
+                width: 100px;
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .summary{
+        .top{
+            width: 100%;
+            h1{font-size: 28px;}
+            p{font-size: 15px;}
+        }
+        .summary-table{
+            width: calc(100% - 40px);
+
+            .plan-details{
+                h2{
+                    font-size: 14px;
+                }
+    
+                span{
+                    font-size: 14px;
+                }
+            }
+    
+            .add-ons-details{
+                .on-item{
+                    h3{
+                        font-size: 14px;
+                    }
+        
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    
+        .total{
+            width: 90%;
+    
+            h2{
+                font-size: 14px;
+            }
+    
+            span{
+                font-size: 16px;
+            }
+        }
+        
+        .btns{
+            width: 100%;
+            button{
+                width: 100px;
+                height: 40px;
+                font-size: 14px;
+            }
+        }
+    }
+    
+    .confirmation{
+        width: 100%;
+        h1{
+            font-size: 28px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }    
+}
