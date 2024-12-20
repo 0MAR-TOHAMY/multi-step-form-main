@@ -816,6 +816,7 @@ html, body{
     }
     .main-content{
         width: 80%;
+        height: calc(100% - 170px) !important;
     }
 
     .personal-info{
