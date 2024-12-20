@@ -819,6 +819,7 @@ html, body{
     }
 
     .personal-info{
+        gap: 10px;
         .top{
             width: 100%;
             h1{font-size: 28px;}
@@ -827,6 +828,7 @@ html, body{
     
         form{
             width: 100%;
+            gap: 10px;
     
             .form-group{
                 input{
@@ -859,7 +861,7 @@ html, body{
                 flex-direction: row;
                 align-items: center;
                 gap: 40px;
-                height: 30px;
+                height: 20px;
             }
         }
     
