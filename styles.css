@@ -816,7 +816,6 @@ html, body{
     }
     .main-content{
         width: 80%;
-        height: 100%;
     }
 
     .personal-info{
@@ -844,6 +843,7 @@ html, body{
     }
 
     .select-plan{
+        gap: 10px;
         .top{
             width: 100%;
             h1{font-size: 28px;}
